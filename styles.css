@@ -75,3 +75,44 @@
     color: var(--cloud);
     padding: 10px;
 }
+/* Media queries for responsive designs */
+
+/* Styles for smaller screens */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .header-class {
+        padding: 10px;
+    }
+    
+    .nav-class {
+        padding: 5px;
+    }
+    
+    .nav-link-class {
+        padding: 3px 8px;
+    }
+    
+    .title-class {
+        font-size: 20px;
+    }
+}
+
+/* Styles for larger screens */
+@media (min-width: 1200px) {
+    /* Adjust styles for larger screens */
+    .header-class {
+        padding: 30px;
+    }
+    
+    .nav-class {
+        padding: 15px;
+    }
+    
+    .nav-link-class {
+        padding: 7px 12px;
+    }
+    
+    .title-class {
+        font-size: 24px;
+    }
+}
