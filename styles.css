@@ -1,4 +1,4 @@
-/* Define color variables */
+/* Color variables */
 :root {
     --white: white;
     --deep-red: #932432;
@@ -7,21 +7,21 @@
     --cloud: #F3F3F3;
 }
 
-/* Apply styles for body */
+/* Styles for body */
 .body-class {
     background-color: var(--cloud);
     color: var(--deep-red);
     font-family: Arial, sans-serif;
 }
 
-/* Apply styles for header */
+/* Styles for header */
 .header-class {
     background-color: var(--deep-red);
     color: var(--cloud);
     padding: 20px;
 }
 
-/* Apply styles for navigation */
+/* Styles for navigation */
 .nav-class {
     background-color: var(--pure-purple);
     padding: 10px;
@@ -37,27 +37,27 @@
     font-weight: bold;
 }
 
-/* Apply styles for title */
+/* Styles for title */
 .title-class {
     color: var(--bright-red);
 }
 
-/* Apply styles for sections */
+/* Styles for sections */
 .section-title-class {
     color: var(--pure-purple);
 }
 
-/* Apply styles for text */
+/* Styles for footer text */
 .text-class {
-    color: var(--deep-red);
+    color: var(white);
 }
 
-/* Apply styles for images */
+/* Styles for images */
 .image-class {
     border: 2px solid var(--bright-red);
 }
 
-/* Apply styles for forms and buttons */
+/* Styles for forms and buttons */
 .form-class input,
 .button-class {
     background-color: var(--bright-red);
@@ -69,7 +69,7 @@
     margin-top: 10px;
 }
 
-/* Apply styles for footer */
+/* Styles for footer */
 .footer-class {
     background-color: var(--pure-purple);
     color: var(--cloud);
